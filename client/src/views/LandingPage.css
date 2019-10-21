@@ -1,0 +1,33 @@
+#logo {
+  height: 20%;
+  width: 100%;
+}
+#searchButton {
+  height: 100px;
+  width: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+p {
+  text-align: center;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.links {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+a {
+  margin-left: 10px;
+}
+#home {
+  height: 100px;
+  width: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
