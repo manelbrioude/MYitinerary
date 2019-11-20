@@ -1,0 +1,4 @@
+{
+  "mongoURI": "mongodb+srv://manel123:manel123@mylab-mhbbo.mongodb.net/myitinirary?retryWrites=true&w=majority",
+  "jwtSecret": "myapp_JwtSecret"
+}

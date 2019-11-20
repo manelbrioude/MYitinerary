@@ -1,11 +1,9 @@
 import React from "react";
-import "./LandingPage.css";
+import "../css/LandingPage.css";
 import logo from "../assets/MYtineraryLogo.png";
 import searchButton from "../assets/circled-right-2.png";
-import HomeButton from "../assets/homeIcon.png";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-
-import Members from "../components/Myitinerary-projec-team";
+import { Link } from "react-router-dom";
+import CitiesSlider from "../components/CitiesSlider";
 // class LandingPage extends React.Component {
 //   render() {
 function LandingPage(props) {
@@ -17,20 +15,10 @@ function LandingPage(props) {
         cities
       </p>
       <Link to="/cities">
-        <img src={searchButton} id="searchButton" />
+        <img src={searchButton} id="searchButton" alt="searchButton" />
       </Link>
-      <p>Want to build your own MYitenerary?</p>
-      <div className="links">
-        <a>
-          <Link to="/login">Log in</Link>
-        </a>
-        <a>
-          <Link to="/newaccount">Create an account</Link>
-        </a>
-      </div>
-      <Link to="/">
-        <img src={HomeButton} id="home" />
-      </Link>
+      <p>Popular MYtineraries</p>
+      <CitiesSlider />
     </div>
   );
 }

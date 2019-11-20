@@ -1,0 +1,89 @@
+/* cities css */
+.cities li {
+  list-style-type: none;
+  text-decoration: none;
+  border: 2px solid black;
+  margin-bottom: 11px;
+  box-shadow: 6px 5px 0 3px #888888;
+  background-color: rgba(142, 151, 151, 0.37);
+}
+.cities ul {
+  text-align: center;
+  margin-right: 10%;
+  margin-left: 10%;
+  padding-left: 0px;
+}
+.cities a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+.cities h1 {
+  font-size: 40px;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.cities label {
+  margin-top: 0px;
+}
+.listOfCities {
+  height: 350px;
+  width: 300px;
+  overflow: scroll;
+}
+/* icons top menu */
+.menus {
+  display: flex;
+  justify-content: space-between;
+}
+/* itineraries */
+.listOfItineraries {
+  height: 450px;
+  width: 90%;
+  overflow: scroll;
+  border: 1px solid black;
+}
+
+.itineraries img {
+  height: 50px !important;
+  width: 50px !important;
+}
+.itineraries h1 {
+  text-align: center;
+  font-size: 30px;
+  margin: 0px;
+  font-weight: bold;
+}
+.listOfItineraries ul {
+  text-align: center;
+}
+
+.itineraries ul {
+  padding-left: 0px;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+.listOfItineraries .title {
+  background-color: gray;
+  font-weight: bold;
+}
+.listOfItineraries .hashtags {
+  background-color: rgba(128, 128, 128, 0.808);
+}
+.listOfItineraries .data {
+  background-color: rgba(128, 128, 128, 0.808);
+}
+.listOfItineraries .author {
+  background-color: rgba(128, 128, 128, 0.808);
+}
+.itineraries p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+/* collapsible */
+.hidden {
+  text-align: center !important;
+}
