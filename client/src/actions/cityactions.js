@@ -8,9 +8,6 @@ export const fetchCities = () => dispatch => {
       });
     })
     .catch(error => {
-      this.setState({
-        isLoaded: true,
-        error
-      });
+      console.log(error);
     });
 };

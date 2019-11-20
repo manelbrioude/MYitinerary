@@ -8,9 +8,6 @@ export const fetchActivities = itineraryid => dispatch => {
       });
     })
     .catch(error => {
-      this.setState({
-        isLoaded: true,
-        error
-      });
+      console.log(error);
     });
 };

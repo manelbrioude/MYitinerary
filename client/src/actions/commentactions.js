@@ -31,6 +31,6 @@ export const newComment = comment => dispatch => {
       });
     })
     .catch(error => {
-      // console.log(error);
+      console.log(error);
     });
 };
