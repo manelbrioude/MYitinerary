@@ -8,6 +8,6 @@ export const fetchCities = () => dispatch => {
       });
     })
     .catch(error => {
-      console.log(error);
+      // console.log(error);
     });
 };
